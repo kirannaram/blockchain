@@ -1,0 +1,27 @@
+.formData{
+    margin: 50px 200px;
+    width: 500px;
+    border: 1px solid #666;
+    float: left;
+}
+.formData-row {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #666;
+    &:last-child {
+        border-bottom: 0px;
+    }
+}
+.formData-row__label {
+    float: left;
+    width: 40%;
+    font-weight: bold;
+}
+.formData-row__value {
+    float: left;
+    width: 60%;
+    word-wrap: break-word;
+}
