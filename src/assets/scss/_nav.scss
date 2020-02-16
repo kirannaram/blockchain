@@ -1,0 +1,17 @@
+.nav{
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    display: flex;
+    float: right;
+}
+.nav__item {
+    list-style: none;
+    flex-grow: 1;
+    padding: 10px;
+}
+.nav__item--link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #336699;
+}
